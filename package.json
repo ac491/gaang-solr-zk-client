@@ -1,0 +1,19 @@
+{
+  "name": "gaang-solr-zk-client",
+  "version": "1.0.1",
+  "description": "Solr Zookeeper Client by GAANG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GAANG",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "got": "^11.8.2",
+    "node-zookeeper-client": "^1.1.1",
+    "solr-client": "^0.9.0",
+    "underscore": "^1.13.1",
+    "url": "^0.11.0"
+  }
+}
