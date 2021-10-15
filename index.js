@@ -212,7 +212,6 @@ function replaceAfterPort(url, pattern, replacement) {
 
 function swap(obj) {
     var ret = {};
-    console.log(obj)
     for (var key in obj) {
         if (obj.hasOwnProperty(key)) {
             for(collection of obj[key].split(',')){
