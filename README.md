@@ -4,6 +4,7 @@ gaang-solr-zk-client
 This is a fork from  [node-solr-smart-client](https://github.com/jijordre/node-solr-smart-client)
 * Periodic maintainence of the package and dependencies update to prevent software composition Analysis (SCA) security flaws
 * Updates to support master aliases pointing to multiple solr collections
+* Functionality to stream data from Solr (coming soon!)
 
 A node.js solr smart client. In short it serves as a smart constructor for [solr-client](https://github.com/lbdremy/solr-node-client). The constructor queries a ZooKeeper
 ensemble for live nodes of the input Solr collection. When more than one live node is returned by ZooKeeper, the constructor picks one at random and hands over to solr-client.
