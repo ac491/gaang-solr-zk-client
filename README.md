@@ -32,7 +32,7 @@ Usage
 ### Basic
 
     // Load dependency
-    var solrSmartClient = require('node-solr-smart-client');
+    var solrSmartClient = require('gaang-solr-zk-client');
     
     // Define options
     options = {
