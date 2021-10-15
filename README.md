@@ -20,11 +20,11 @@ Features
 Installation
 ------------
 
-    npm install node-solr-smart-client
+    npm install gaang-solr-zk-client
     
 Include option `--save` to add it to your package.json file in the same go:
 
-    npm install node-solr-smart-client --save
+    npm install gaang-solr-zk-client --save
     
 Usage
 -----
